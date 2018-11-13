@@ -12,7 +12,7 @@ def box_clear():
 	key = OpenKey(HKEY_CURRENT_USER,r"Software\Microsoft\Windows\CurrentVersion\Policies\System",0, KEY_ALL_ACCESS)
 	SetValueEx(key, "DisableRegistryTools", 0, REG_DWORD, 0)
 	key.Close()
-	print("Регистр заблокирован")	
+	print("Регистр разблокирован")	
 
 
 button1 = Button(root,						   
